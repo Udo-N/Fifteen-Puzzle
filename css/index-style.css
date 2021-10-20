@@ -1,0 +1,67 @@
+#puzzle{
+    position: relative;
+	background-color: #121212;
+	width: 500px;
+    height: auto; 
+    min-height: 400px;
+    margin: 0 auto;
+    margin-top: 150px;
+	padding: 30px;
+	overflow: auto;
+}
+
+.new-game{
+    background-color: #121212;
+    color: #e6e600;
+    border: 3px solid #e6e600;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 40vw;
+    margin-right: 0;
+}
+
+.new-game:hover{
+    background-color: #e6e600;
+    color: #121212;
+}
+
+.simp-game{
+    position: relative;
+    float: right;
+    background-color: #121212;
+    color: #e6e600;
+    border: 3px solid #e6e600;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-left: 0;
+    margin-right: 40vw;
+}
+
+.simp-game:hover{
+    background-color: #e6e600;
+    color: #121212;
+}
+
+#puzzle button{
+    background-color: #121212;
+    color: #e6e600;
+    border: 3px solid #e6e600;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.row-1, .row-2, .row-3, .row-4{
+    padding-left: 20%;
+}
+
+#puzzle button:hover{
+    background-color: #e6e600;
+    color: #121212;
+}
